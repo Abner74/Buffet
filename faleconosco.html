@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>.::Buffet Ana Maria::.</title>
+<!-- TemplateEndEditable -->
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="MM_preloadImages('imagens/home_02.gif','imagens/servicos_02.gif','imagens/fotos_02.gif','imagens/debutantes_02.gif','imagens/faleconosco_02.gif')">
+<div class="topo" id="cabecalho"></div>
+<div class="barramenu" id="barramenu">
+  <table width="470" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="470"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','imagens/home_02.gif',1)"><img src="imagens/home_01.gif" width="70" height="36" id="Image1" border="0" /></a><a href="servicos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagens/servicos_02.gif',1)"><img src="imagens/servicos_01.gif" width="89" height="36" id="Image2" border="0" /></a><a href="fotos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagens/fotos_02.gif',1)"><img src="imagens/fotos_01.gif" width="69" height="36" id="Image3" border="0" /></a><a href="debutantes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','imagens/debutantes_02.gif',1)"><img src="imagens/debutantes_01.gif" width="111" height="36" id="Image4" border="0" /></a><a href="faleconosco.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','imagens/faleconosco_02.gif',1)"><img src="imagens/faleconosco_01.gif" width="131" height="36" id="Image5" border="0" /></a></td>
+    </tr>
+  </table>
+</div>
+<div class="corpo" id="conteudo"><!-- TemplateBeginEditable name="Corpo" -->
+  <p>&nbsp;</p>
+  <form id="form1" name="form1" method="post" action="enviado.html">
+    <table width="480" border="0" align="center" cellspacing="1">
+      <tr>
+        <td width="65">Nome:</td>
+        <td width="408"><input name="nome" type="text" id="nome" size="35" /></td>
+      </tr>
+      <tr>
+        <td>Telefone:</td>
+        <td><input type="text" name="tel" id="tel" /></td>
+      </tr>
+      <tr>
+        <td>E-mail:</td>
+        <td><input type="text" name="mail" id="mail" /></td>
+      </tr>
+      <tr>
+        <td>Festa de:</td>
+        <td><select name="festa" id="festa">
+          <option selected="selected">Aniverssário infantil</option>
+          <option>Aniverssário 15 anos</option>
+          <option>Aniverssário Adulto</option>
+          <option>Aniverssário de Casamento</option>
+          <option>Casamento</option>
+          <option>formatura</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Pacote:</td>
+        <td><select name="pacote" id="pacote">
+          <option selected="selected">Personalizado</option>
+          <option>Completo</option>
+          <option>Intermediario</option>
+          <option>Básico</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Domicilio:</td>
+        <td><table width="200">
+          <tr>
+            <td width="59"><label>
+              <input type="radio" name="domicilio" value="s" id="domicilio_0" />
+              Sim</label></td>
+            <td width="129"><input type="radio" name="domicilio" value="n" id="domicilio_1" />
+Não</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>Obs:</td>
+        <td><textarea name="obs" id="obs" cols="45" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><table width="100" border="0" align="center" cellspacing="1">
+          <tr>
+            <td><input type="reset" name="apagar" id="apagar" value="Redefinir" /></td>
+            <td><input type="submit" name="enviar" id="enviar" value="Enviar" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+  </form>
+  <p>&nbsp;</p>
+<!-- TemplateEndEditable --></div>
+<div class="rodape" id="rodape">Feito por :Abner Ribeiro dos Santos - CGD 2017</div>
+</body>
+</html>

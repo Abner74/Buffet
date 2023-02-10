@@ -1,0 +1,83 @@
+.topo {
+	background-image: url(imagens/topo.jpg);
+	height: 220px;
+	width: 950px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 4px double #BCBCBC;
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #930;
+}
+.barramenu {
+	background-color: #FFF;
+	text-align: center;
+	height: 39px;
+	width: 956px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #BCBCBC;
+	border-left-color: #BCBCBC;
+}
+.corpo {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #353335;
+	background-color: #FFF;
+	width: 956px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #BCBCBC;
+}
+.rodape {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999;
+	background-color: #FFF;
+	text-align: center;
+	width: 956px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CDCDCD;
+}
+.titulo {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: oblique;
+	font-weight: bold;
+	color: #A00;
+}
+.borda {
+	border: 4px double #BCBCBC;
+}
+.subtitulo {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #A00;
+}
+.envio {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #A00;
+	text-align: center;
+}
